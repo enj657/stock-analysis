@@ -59,3 +59,32 @@ Sub DQAnalysis()
     Cells(4, 2).Value = totalVolume
 
 End Sub
+
+
+Sub AllStocksAnalysis()
+
+    Worksheets("All Stocks Analysis").Activate
+
+    Range("A1").Value = "All Stocks (2018)"
+
+    ' Create a header row
+    Cells(3, 1).Value = "Ticker"
+    Cells(3, 2).Value = "Total Daily Volume"
+    Cells(3, 3).Value = "Return"
+
+
+End Sub
+
+
+
+
+Sub Rect(rs As Integer, cols As Integer)
+
+    For r = 1 To rs
+        For c = 1 To cols
+            Cells(r, c).Value = 1
+        Next c
+    Next r
+
+
+End Sub
