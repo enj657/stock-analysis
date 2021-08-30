@@ -58,11 +58,11 @@ The old code is located in Module 1 of the VBA_Challenge.xlsm workbook (yearValu
 
 The amount of time it originally took our code to run the data for 2017 (before refactoring) was about 0.623 seconds, as seen in the image below.
 
-![image info](./resources/VBA_Challenge_2017_not_refactored.png)
+![image info](./Resources/VBA_Challenge_2017_not_refactored.png)
 
 The amount of time it took our code to run the data after refactoring was about 0.0957 seconds, as seen in the image below.
 
-![image info](./resources/VBA_Challenge_2017.png)
+![image info](./Resources/VBA_Challenge_2017.png)
 
 Clearly the new algorithm runs faster because of fewer iterations.
 
@@ -70,11 +70,11 @@ Clearly the new algorithm runs faster because of fewer iterations.
 
 The amount of time it originally took our code to run the data for 2018 (before refactoring) was about 0.506 seconds, as seen in the image below.
 
-![image info](./resources/VBA_Challenge_2018_not_refactored.png)
+![image info](./Resources/VBA_Challenge_2018_not_refactored.png)
 
 The amount of time it took our code to run the data after refactoring was about 0.0801 seconds, as seen in the image below.
 
-![image info](./resources/VBA_Challenge_2018.png)
+![image info](./Resources/VBA_Challenge_2018.png)
 
 We can see that the new time is faster than the old time with the refactored code.
 
